@@ -1,0 +1,85 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon May  6 15:39:57 2024
+[*]
+[dumpfile] "/home/ahsan/Documents/single cycle pipeline complete(3)/Single Cycle.vcd"
+[dumpfile_mtime] "Mon May  6 15:35:00 2024"
+[dumpfile_size] 31198
+[savefile] "/home/ahsan/Documents/single cycle pipeline complete(3)/csr.gtkw"
+[timestart] 0
+[size] 1308 704
+[pos] -1 -1
+*-9.530109 2594 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.single_cycle_top.
+[sst_width] 233
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 180
+@28
+tb.clk
+tb.rst
+tb.t_inter
+@200
+-pc
+@22
+tb.single_cycle_top.Pc.PC[31:0]
+tb.single_cycle_top.PC_F.out[31:0]
+tb.single_cycle_top.PC_E.out[31:0]
+@200
+-instruction memory
+@22
+tb.single_cycle_top.Instructions_memory.Rd[31:0]
+tb.single_cycle_top.Instruction_Fetch.out[31:0]
+tb.single_cycle_top.Instruction_execute.out[31:0]
+@200
+-sign ext
+@22
+tb.single_cycle_top.Sign_exts.Imm_ext[31:0]
+tb.single_cycle_top.IMM_Execute.out[31:0]
+@200
+-forw a out
+@22
+tb.single_cycle_top.forw_a_Execute.out[31:0]
+@200
+-csr rg file
+@22
+tb.single_cycle_top.CSR_Reg.csr_addr[11:0]
+@28
+tb.single_cycle_top.CSR_Reg.csr_wr
+@22
+tb.single_cycle_top.CSR_Reg.wd[31:0]
+tb.single_cycle_top.CSR_Reg.mstatus_reg[31:0]
+tb.single_cycle_top.CSR_Reg.mie_reg[31:0]
+tb.single_cycle_top.CSR_Reg.mtvec_reg[31:0]
+tb.single_cycle_top.CSR_Reg.epc[31:0]
+@28
+tb.single_cycle_top.CSR_Reg.t_inter
+@22
+tb.single_cycle_top.CSR_Reg.pc[31:0]
+@28
+tb.single_cycle_top.CSR_Reg.inter_flag
+tb.single_cycle_top.CSR_Reg.epc_taken
+@22
+tb.single_cycle_top.CSR_Reg.mcause_reg[31:0]
+tb.single_cycle_top.CSR_Reg.mepc_reg[31:0]
+@28
+tb.single_cycle_top.ismret_Executes.out
+@200
+-mux epc
+@22
+tb.single_cycle_top.MUX_PC_Ultimate.a[31:0]
+tb.single_cycle_top.MUX_PC_Ultimate.b[31:0]
+@28
+tb.single_cycle_top.MUX_PC_Ultimate.s
+@22
+tb.single_cycle_top.MUX_PC_Ultimate.c[31:0]
+@200
+-
+-
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
